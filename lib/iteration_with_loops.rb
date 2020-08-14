@@ -5,7 +5,7 @@ def find_min_in_nested_arrays(src)
   
   while day_index < src.length do
     element_index = 0
-    lowest_element = src[day_index][element_index][0]
+    lowest_element = 50
     
     while element_index < src[day_index].length do
       #binding.pry
