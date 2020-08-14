@@ -11,10 +11,11 @@ def find_min_in_nested_arrays(src)
       #binding.pry
       if src[day_index][element_index] < lowest_element
         lowest_element = src[day_index][element_index]
-        temp_results << lowest_element
+      
       end
       element_index += 1
     end
+    temp_results << lowest_element
     day_index += 1
 end
 temp_results
