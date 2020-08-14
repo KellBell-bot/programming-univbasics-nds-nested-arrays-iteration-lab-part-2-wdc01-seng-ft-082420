@@ -8,7 +8,7 @@ def find_min_in_nested_arrays(src)
     lowest_element = src[day_index][element_index][0]
     
     while element_index < src[day_index].length do
-      binding.pry
+      #binding.pry
       if src[day_index][element_index] < lowest_element
         lowest_element = src[day_index][element_index]
         temp_results << src[day_index][element_index]
