@@ -15,3 +15,4 @@ def find_min_in_nested_arrays(src)
     temp_results << src[day_index][element_index]
     day_index += 1
 end
+end
